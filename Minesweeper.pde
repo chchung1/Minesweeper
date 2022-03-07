@@ -37,7 +37,6 @@ public void setMines()
     int c = (int)(Math.random()*NUM_COLS);
     if (mines.contains(buttons[r][c])==false) {
       mines.add(buttons[r][c]);
-      System.out.println(r + ", " + c);
     }
   }
 }
@@ -89,7 +88,7 @@ public void displayWinningMessage()
   textSize(30);
   fill(255);
   text("CONGRATULATIONS! YOU WIN!", 400, 820);
-  System.out.println("yay");
+  
 }
 public boolean isValid(int r, int c)
 {
@@ -137,7 +136,6 @@ public class MSButton
   public void mousePressed () 
   {
     type = (int)(Math.random()*7);
-    //System.out.println(type);
     clicked = true;
     //your code here
     if (mouseButton == RIGHT) {
