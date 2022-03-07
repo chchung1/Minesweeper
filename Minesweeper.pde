@@ -137,7 +137,7 @@ public class MSButton
   public void mousePressed () 
   {
     type = (int)(Math.random()*7);
-    System.out.println(type);
+    //System.out.println(type);
     clicked = true;
     //your code here
     if (mouseButton == RIGHT) {
