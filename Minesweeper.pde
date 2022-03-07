@@ -71,11 +71,11 @@ public boolean isWon()
 public void displayLosingMessage()
 {
   //your code here
-  textSize(30);
+  textSize(25);
   fill(255);
   text("attacked by slimes :(", 400, 820);
   textSize(15);
-  text("click around to see ur assailants",400,850);
+  text("click around to see ur assailants",400,835);
   
   for(int i = 0; i < mines.size(); i++){
     mines.get(i).flagged=false;
