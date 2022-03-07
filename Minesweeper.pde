@@ -11,7 +11,7 @@ boolean lose = false;
 
 void setup ()
 {
-  size(800, 900);
+  size(800, 850);
   background( 0 );
   textAlign(CENTER, CENTER);
 
@@ -74,6 +74,7 @@ public void displayLosingMessage()
   textSize(30);
   fill(255);
   text("attacked by slimes :(", 400, 820);
+  textSize(15);
   text("click around to see ur assailants",400,850);
   
   for(int i = 0; i < mines.size(); i++){
