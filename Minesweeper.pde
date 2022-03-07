@@ -45,10 +45,10 @@ public void draw ()
 {
   background(0);
   fill(255, 209, 201);
-  drawSlime(50, 880);
+  drawSlime(50, 840);
   textSize(30);
   fill(255);
-  text(slimed, 95, 865);
+  text(slimed, 95, 825);
   if (isWon() == true)
     displayWinningMessage();
   if(lose == true)
