@@ -26,10 +26,9 @@ void setup ()
       buttons[r][c] = new MSButton(r, c);
     }
   }
-
-
   setMines();
 }
+
 public void setMines()
 {
   //your code
