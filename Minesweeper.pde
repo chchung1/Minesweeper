@@ -75,7 +75,7 @@ public void displayLosingMessage()
   fill(255);
   text("attacked by slimes :(", 400, 820);
   textSize(15);
-  text("click around to see ur assailants",400,835);
+  text("click around to see ur assailants",400,845);
   
   for(int i = 0; i < mines.size(); i++){
     mines.get(i).flagged=false;
